@@ -12,3 +12,11 @@ And then simply run:
 ```sh
 $ grunt watch
 ```
+
+
+##### Other:
+
+Careful that package.json file already includes some dependencies that you might not need. Just take a look in package.json and remove with what you need with:
+```sh
+$ npm remove 'package you want to be removed'
+```
